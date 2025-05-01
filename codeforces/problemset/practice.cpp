@@ -2,10 +2,15 @@
 using namespace std;
 int main(){
 
-    long long a,b;
-    cin>>a>>b;
+   double r;
+   cin>>r;
+   double pi= 3.141592653;
 
-    cout<<a<<" "<<"+"<<" "<<b<<" "<<"="<<" "<<(a+b)<<endl;
-    cout<<a<<" "<<"*"<<" "<<b<<" "<<"="<<" "<<(a*b)<<endl;
-    cout<<a<<" "<<"-"<<" "<<b<<" "<<"="<<" "<<(a-b)<<endl;
+
+   double result=(r*r*pi);
+
+   cout << fixed << setprecision(9)<<result<<endl;
+
+
+    
 }
