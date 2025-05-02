@@ -2,15 +2,18 @@
 using namespace std;
 int main(){
 
-   double r;
-   cin>>r;
-   double pi= 3.141592653;
+   int n;
+   cin>>n;
 
+   int y,m,d;
 
-   double result=(r*r*pi);
+   y=(n/365);
+   m=(n%365)/30;
+   d=((n%365)%30);
 
-   cout << fixed << setprecision(9)<<result<<endl;
-
+   cout<<y<<" years"<<endl;
+   cout<<m<<" months"<<endl;
+   cout<<d<<" days"<<endl;
 
     
 }
