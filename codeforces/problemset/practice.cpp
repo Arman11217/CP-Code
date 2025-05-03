@@ -2,18 +2,12 @@
 using namespace std;
 int main(){
 
-   int n;
-   cin>>n;
+   long long N;
+   cin>>N;
 
-   int y,m,d;
+   cout << N * (N + 1) / 2 << endl;
+   
 
-   y=(n/365);
-   m=(n%365)/30;
-   d=((n%365)%30);
-
-   cout<<y<<" years"<<endl;
-   cout<<m<<" months"<<endl;
-   cout<<d<<" days"<<endl;
 
     
 }
