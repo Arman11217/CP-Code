@@ -1,13 +1,17 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
-int main(){
 
-   long long N;
-   cin>>N;
+int main() {
+    long long a, b;
+    cin >> a >> b ;
 
-   cout << N * (N + 1) / 2 << endl;
-   
+    if(a>=b){
+        cout<<"Yes"<<endl;
 
+    }
+    else{
+        cout<<"No"<<endl;
+    }
 
     
 }
