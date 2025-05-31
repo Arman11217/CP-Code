@@ -1,31 +1,30 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
-int main(){
 
+int main() {
     int t;
-    cin>>t;
+    cin >> t;
 
-    while(t--){
+    while (t--) {
         long long n;
-        cin>>n;
-        vector<int> vec;
-        long long temp=n;
-        int rem;
+        cin >> n;
+        vector<long long> vec;
 
-        while(temp!=0){
-
-            rem=temp%10;
-            vec.push_back(rem);
-            temp=temp/10;
-
-
+        if (n == 0) {
+            vec.push_back(0);
+        } else {
+            while (n != 0) {
+                vec.push_back(n % 10);
+                n /= 10;
+            }
         }
 
-        //sort(vec.begin(),vec.end());
-
-        for(int i=0;i<vec.size();i++){
-            cout<<vec[i]<<" ";
+        for (int i = 0; i < vec.size(); i++) {
+            cout << vec[i];
+            if (i != vec.size() - 1) cout << " ";
         }
-        cout<<endl;
+        cout << endl;
     }
+
+    return 0;
 }
