@@ -1,36 +1,33 @@
-#include <iostream>
-#include <vector>
-
+#include<bits/stdc++.h>
 using namespace std;
 
-vector<int> constructPermutation(int n) {
-    vector<int> perm(n);
-    int left = 0, right = n - 1;
-    int current = n;
-    for (int i = 0; i < n; ++i) {
-        if (i % 2 == 0) {
-            perm[left++] = current--;
-        } else {
-            perm[right--] = current--;
-        }
+void problemB(int a) {
+    vector<int> vec;
+
+    for (int i = 2; i <= a; i += 2) {
+        vec.push_back(i);
     }
-    return perm;
+
+    if (a % 2 == 1) {
+        vec.push_back(a);
+        a -= 1; 
+    }
+
+    for (int i = a - 1; i >= 1; i -= 2) {
+        vec.push_back(i);
+    }
+
+    for (int i=0;i<vec.size();i++) cout << vec[i] << " ";
+    cout << "\n";
 }
 
 int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(nullptr);
-
     int t;
     cin >> t;
     while (t--) {
         int n;
         cin >> n;
-        vector<int> p = constructPermutation(n);
-        for (int num : p) {
-            cout << num << ' ';
-        }
-        cout << '\n';
+        problemB(n);
     }
-    return 0;
+    
 }
