@@ -1,0 +1,1 @@
+{"name":"Local: A_Only_One_Digit","url":"/mnt/58D8C91AD8C8F6F2/CP-Code/codeforces/problemset/A_Only_One_Digit.cpp","tests":[{"id":1753811482276,"input":"5\n6\n96\n78\n122\n696\n","output":"6\n6\n7\n1\n6\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/mnt/58D8C91AD8C8F6F2/CP-Code/codeforces/problemset/A_Only_One_Digit.cpp","group":"local","local":true}
