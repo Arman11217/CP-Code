@@ -19,6 +19,8 @@ int  main() {
         map<ll,ll> freq;
         for (int x : l) freq[x]++;
 
+        
+
         bool ok = true;
 
         for (auto it : freq) {
