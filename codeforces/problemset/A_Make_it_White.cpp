@@ -37,6 +37,6 @@ int main()
             }
         }
 
-        cout << ((backB - frontB) + 1) << endl;
+        cout << ((backB - frontB) + 1) << "/n";
     }
 }
