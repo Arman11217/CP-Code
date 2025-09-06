@@ -1,0 +1,1 @@
+{"name":"Local: A_Decreasing_Trees","url":"e:\\CP-Code\\codeforces\\Contest\\A_Decreasing_Trees.cpp","tests":[{"id":1757063221070,"input":"4\n1\n2\n3\n4\n","output":"1\n1\n2\n6\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\CP-Code\\codeforces\\Contest\\A_Decreasing_Trees.cpp","group":"local","local":true}
