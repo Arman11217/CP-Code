@@ -1,0 +1,1 @@
+{"name":"Local: A_Maple_and_Multiplication","url":"e:\\CP-Code\\codeforces\\Contest\\A_Maple_and_Multiplication.cpp","tests":[{"id":1757342702168,"input":"3\n1 2\n10 3\n1000 1000\n","output":"1\n2\n0\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\CP-Code\\codeforces\\Contest\\A_Maple_and_Multiplication.cpp","group":"local","local":true}
