@@ -28,6 +28,19 @@ bool isPrime(ll n){
 }
  
 int  main() {
-  fast;
+
+    fast;
+
+    testCase{
+        ll x,n;
+        cin>>x>>n;
+        ll sum=0;
+            if(n%2!=0){
+               cout<<x<<endl;
+            }
+            else{
+               cout<<0<<endl;
+            }     
+    }
  	return 0;	  	 	  	 	  	
 }	

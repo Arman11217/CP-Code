@@ -28,6 +28,31 @@ bool isPrime(ll n){
 }
  
 int  main() {
-  fast;
+
+    fast;
+
+     testCase {
+        int n;
+        cin >> n;
+        priority_queue<ll, vector<ll>, greater<ll>> vec;
+        for (int i = 0; i < n; i++) {
+            ll num;
+            cin >> num;
+            vec.push(num);
+        }
+        ll Cost = 0;
+        while (vec.size() > 1) {
+            ll x = vec.top();
+            vec.pop();
+            ll y = vec.top();
+            vec.pop();
+            ll sum = x + y;
+            Cost += sum;
+            vec.push(sum);
+        }
+        cout << Cost << endl;
+    }
+    
+    
  	return 0;	  	 	  	 	  	
 }	

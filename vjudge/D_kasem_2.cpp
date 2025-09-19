@@ -29,5 +29,34 @@ bool isPrime(ll n){
  
 int  main() {
   fast;
+   string s, t;
+    cin >> s >> t;
+    ll n = s.size();
+      ll diff_count = 0;
+    for (ll i = 0; i < n; i++) {
+         if (s[i] != t[i]) {
+            diff_count++;
+         }
+    }
+    
+    if (diff_count % 2 != 0) {
+        cout << "impossible" << endl;
+        return 0;
+    }
+    string p;
+    ll x = 0;
+    for (ll i = 0; i < n; i++) {
+        if (s[i] == t[i]) {
+            p += s[i];
+        } else {
+            if (x == 0) {
+                p += s[i];
+            } else {
+                p += t[i];
+            }
+            x = 1 - x;
+        }
+    }
+    cout << p << endl;
  	return 0;	  	 	  	 	  	
 }	

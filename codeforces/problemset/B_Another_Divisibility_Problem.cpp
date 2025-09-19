@@ -28,6 +28,13 @@ bool isPrime(ll n){
 }
  
 int  main() {
-  fast;
+
+    fast;
+
+    testCase{
+        ll n;
+        cin>>n;
+        cout<<2*n<<endl;
+    }
  	return 0;	  	 	  	 	  	
 }	

@@ -28,6 +28,38 @@ bool isPrime(ll n){
 }
  
 int  main() {
-  fast;
+
+    fast;
+    ll a,b;
+    cin>>a>>b;
+    vector<ll> vec;
+    vec.push_back(b);
+
+    while (b>a)
+    {
+        if(b%2==0){
+            b/=2;
+        }
+        else if((b-1)%10==0){
+            b/=10;
+        }
+        else{
+            break;
+        }
+        vec.push_back(b);
+    }
+   //revall(vec);
+    if (b == a) {
+        cout << "YES"<<endl;
+        cout << vec.size() <<endl;
+        reverse(vec.begin(), vec.end());
+        for (ll x : vec) {
+            cout << x << " ";
+        }
+        cout << endl;
+    } else {
+        cout << "NO"<<endl;
+    }
+    
  	return 0;	  	 	  	 	  	
 }	
