@@ -1,0 +1,1 @@
+{"name":"Local: B_Lasers","url":"e:\\CP-Code\\codeforces\\problemset\\B_Lasers.cpp","tests":[{"id":1758949775714,"input":"2\n1 1 2 2\n1\n1\n2 1 100000 100000\n42 58\n32\n","output":"2\n3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\CP-Code\\codeforces\\problemset\\B_Lasers.cpp","group":"local","local":true}
