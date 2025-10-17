@@ -3,6 +3,7 @@
         "ostream": "cpp",
         "iostream": "cpp",
         "numeric": "cpp",
-        "bitset": "cpp"
+        "bitset": "cpp",
+        "random": "cpp"
     }
 }
